@@ -69,3 +69,19 @@ Data is displayed live via a built-in Wi-Fi web server (`http://192.168.4.1/`) h
 
 ## Example Serial Output
 
+[BUS2] SOC: 44.5%, Current: -12.3 A
+[BUS2] Blocks: 15.12 15.15 ... 15.27
+[BUS2] Sum of blocks: 213.15 V, Reported pack: 213.00 V
+
+## Notes & Tips
+
+- Pack voltage/current readings come from other PIDs and are displayed alongside block voltages.
+- Ensure both CAN lines are properly terminated when used standalone.
+- Create backups and handle HV systems with caution.
+
+## Future Enhancements
+
+---
+
+Feel free to copy this into your project—happy to refine further or add visuals whenever you’re ready!
+::contentReference[oaicite:2]{index=2}
